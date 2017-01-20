@@ -8,6 +8,7 @@ function xscale {
             ;;
         lap)
             xrandr --output eDP-1 --auto --scale 1x1
+            ;;
         *)
             echo $"Usage: $0 [profile]"
             exit 1
